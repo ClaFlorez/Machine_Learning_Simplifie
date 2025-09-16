@@ -135,5 +135,5 @@ Vous analysez le **temps passé sur un site** vs le **montant des achats** :
 
 ## 📷 Illustration
 
-![Scatter plot: Taille vs Poids](scatter_taille_poids.JGP)
+![Scatter plot: Taille vs Poids](scatter_taille_poids.JPG)
 
