@@ -188,7 +188,7 @@ Vous pouvez **comparer plusieurs groupes d’un coup** 🔍 :
 
 ## 📷 Illustration
 
-![Boxplot salaires par département](images_visualisation/boxplot.JPG)
+![Boxplot salaires par département](boxplot.JPG)
 
 
 
