@@ -81,5 +81,5 @@ Dès que vous avez une **variable numérique** (âge, prix, température, etc.)
 ## 📷 Illustration
 
 ```markdown
-![Histogramme des âges](histogramme.JPG
+![Histogramme des âges](histogramme.JPG)
 ```
