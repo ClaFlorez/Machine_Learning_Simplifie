@@ -137,6 +137,59 @@ Vous analysez le **temps passé sur un site** vs le **montant des achats** :
 
 ![Scatter plot: Taille vs Poids](scatter_taille_poids.JPG)
 
+## 📦 Interprétation du Boxplot par couleur
+
+La graphique montre la **distribution des salaires** dans plusieurs départements (IT, Marketing, Ventes, RH, Finance), avec des **boîtes de couleur** représentant chaque département.
+
+### 🟦 IT (bleu-vert)
+- **Médiane** la plus élevée (~53 503 €)
+- **Boîte très étendue** (Q1 à Q3) → grande dispersion des salaires
+- **Deux valeurs aberrantes très élevées** (jusqu’à 120 000 €)
+- 👉 *Certains postes très bien rémunérés (ex. : architectes logiciels)*
+
+### 🟧 Marketing (orange)
+- **Médiane plus basse** (~43 273 €)
+- **Distribution plus concentrée** (petite boîte)
+- 👉 *Salaires plus homogènes, mais globalement plus bas*
+
+### 🟪 Ventes (violet)
+- **Médiane intermédiaire** (~47 934 €)
+- **Variabilité importante** (boîte large)
+- **1 valeur aberrante élevée (~114 394 €)**
+- 👉 *Certains commerciaux touchent des bonus/salaires très élevés*
+
+### 🟫 RH (rose clair)
+- **Médiane plus faible** (~40 488 €)
+- **Boîte étroite** → faible dispersion
+- 👉 *Salaires uniformes, peu de variation dans ce département*
+
+### 🟩 Finance (vert olive)
+- **Médiane solide** (~50 228 €)
+- **Distribution stable** (pas d’outliers)
+- 👉 *Bon équilibre entre stabilité et compétitivité salariale*
+
+---
+
+### 🔍 Tableau comparatif
+
+| Couleur   | Département | Médiane (€) | Outliers | Interprétation rapide                         |
+|-----------|-------------|-------------|----------|-----------------------------------------------|
+| 🟦 Bleu-vert | IT          | ~53 503     | Oui      | Hauts salaires, hétérogènes, profils rares    |
+| 🟧 Orange   | Marketing   | ~43 273     | Non      | Salaires modestes et homogènes                |
+| 🟪 Violet   | Ventes      | ~47 934     | Oui      | Forte variabilité, bonus possibles            |
+| 🟫 Rose     | RH          | ~40 488     | Non      | Le plus uniforme et bas                       |
+| 🟩 Vert     | Finance     | ~50 228     | Non      | Compromis stable, aucun extrême               |
+
+---
+
+### ✅ Conclusion
+
+- Le **département IT** présente des **écarts extrêmes**, révélant des postes très spécialisés.
+- Le **département RH** est le plus **prévisible** en termes de salaire.
+- La **finance** reste **solide et équilibrée**, sans surprise.
+- Le **boxplot coloré** permet en un coup d'œil de **comparer l’équité et la variabilité** des salaires entre groupes.
+
+
 
 # 📦 Boxplot – Résumé statistique visuel
 
@@ -190,5 +243,65 @@ Vous pouvez **comparer plusieurs groupes d’un coup** 🔍 :
 
 ![Boxplot salaires par département](boxplot.JPG)
 
+## 📦 Interprétation du Boxplot par couleur
 
+La graphique montre la **distribution des salaires** dans plusieurs départements (IT, Marketing, Ventes, RH, Finance), avec des **boîtes de couleur** représentant chaque département.
+
+### 🟦 IT (bleu-vert)
+- **Médiane** la plus élevée (~53 503 €)
+- **Boîte très étendue** (Q1 à Q3) → grande dispersion des salaires
+- **Deux valeurs aberrantes très élevées** (jusqu’à 120 000 €)
+- 👉 *Certains postes très bien rémunérés (ex. : architectes logiciels)*
+
+### 🟧 Marketing (orange)
+- **Médiane plus basse** (~43 273 €)
+- **Distribution plus concentrée** (petite boîte)
+- 👉 *Salaires plus homogènes, mais globalement plus bas*
+
+### 🟪 Ventes (violet)
+- **Médiane intermédiaire** (~47 934 €)
+- **Variabilité importante** (boîte large)
+- **1 valeur aberrante élevée (~114 394 €)**
+- 👉 *Certains commerciaux touchent des bonus/salaires très élevés*
+
+### 🟫 RH (rose clair)
+- **Médiane plus faible** (~40 488 €)
+- **Boîte étroite** → faible dispersion
+- 👉 *Salaires uniformes, peu de variation dans ce département*
+
+### 🟩 Finance (vert olive)
+- **Médiane solide** (~50 228 €)
+- **Distribution stable** (pas d’outliers)
+- 👉 *Bon équilibre entre stabilité et compétitivité salariale*
+
+---
+
+### 🔍 Tableau comparatif
+
+| Couleur   | Département | Médiane (€) | Outliers | Interprétation rapide                         |
+|-----------|-------------|-------------|----------|-----------------------------------------------|
+| 🟦 Bleu-vert | IT          | ~53 503     | Oui      | Hauts salaires, hétérogènes, profils rares    |
+| 🟧 Orange   | Marketing   | ~43 273     | Non      | Salaires modestes et homogènes                |
+| 🟪 Violet   | Ventes      | ~47 934     | Oui      | Forte variabilité, bonus possibles            |
+| 🟫 Rose     | RH          | ~40 488     | Non      | Le plus uniforme
+
+
+
+## 📦 Graphique en barres - Variables catégorielles
+Quand l'utiliser : Pour comparer les effectifs ou moyennes entre catégories
+
+![Graphique en barres – Répartition des clients par ville](Graphique_barres.JPG)
+
+## 🟨 Graphique en barres – Répartition des clients par ville
+
+Ce graphique présente la **répartition du nombre de clients** dans différentes villes françaises.  
+Chaque barre verticale représente une ville, avec une hauteur proportionnelle au **nombre de clients** présents.
+
+---
+
+### 📊 Données principales
+
+| Ville         | Effectif | Pourcentage |
+|---------------|----------|-------------|
+| 🟣 **Paris**       | 269      | 26.9
 
