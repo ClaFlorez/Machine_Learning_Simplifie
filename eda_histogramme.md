@@ -80,3 +80,60 @@ Dès que vous avez une **variable numérique** (âge, prix, température, etc.)
 
 ## 📷 Illustration
 ![Histogramme des âges](histogramme.JPG)
+
+
+
+# 🔵 Nuage de points – Relation entre deux variables
+
+## 🌳 C’est quoi un nuage de points ?
+
+Imaginez que vous êtes dans un parc 🌳 et que vous voulez savoir s'il y a un lien entre **la taille des arbres** et **leur âge**.  
+Vous mesurez plein d'arbres et vous placez un point sur un graphique :
+- **X** = taille
+- **Y** = âge
+
+🟢 Si les points forment une ligne qui monte : plus un arbre est vieux, plus il est grand !
+
+---
+
+## 🧠 Pourquoi c'est magique ?
+
+Le **nuage de points révèle les relations cachées** entre vos variables.  
+C'est comme mettre des **lunettes à rayons X** pour vos données.
+
+### ⚠️ Attention au piège !
+
+> **Corrélation ≠ causalité**
+
+Exemple : Les ventes de glaces et les noyades augmentent en même temps ?  
+➡️ Ce n’est pas parce que les glaces causent les noyades… c’est **l'été** la vraie cause commune ! ☀️🍦🏊
+
+---
+
+## 🔍 Ce que vous pouvez découvrir
+
+| Type de relation        | Description                                        | Exemple                            |
+|-------------------------|----------------------------------------------------|------------------------------------|
+| 📈 Corrélation positive | Quand une variable augmente, l'autre aussi         | Taille et pointure de chaussures   |
+| 📉 Corrélation négative | Quand une augmente, l'autre diminue                | Prix et demande                    |
+| ❌ Pas de corrélation   | Aucun pattern visible                              | Couleur des yeux et QI             |
+| 🔁 Non-linéaire         | Les points forment une courbe                      | Vitesse et consommation d’essence  |
+
+---
+
+## 🛍️ Exemple e-commerce
+
+Vous analysez le **temps passé sur un site** vs le **montant des achats** :
+
+- Moins de 2 minutes → Trop pressé
+- 5 à 10 minutes → Achats maximisés 🛒✅
+- Plus de 15 minutes → Indécision, moins d’achats
+
+➡️ Le nuage de points peut révéler un **point optimal** de conversion !
+
+---
+
+## 📷 Illustration
+
+![Scatter plot: Taille vs Poids](scatter_taille_poids.JGP)
+
