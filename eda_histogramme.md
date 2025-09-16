@@ -425,6 +425,79 @@ Chaque **case** montre un **coefficient de corrélation de Pearson** (valeurs en
 
 ![premiere_inspection](inspection_initiale.JPG)
 
+## 🔎 Inspection initiale du dataset – Explication simple
+
+Quand on commence à travailler avec un dataset (ici l’exemple du Titanic), la **première étape** est toujours de regarder sa **structure** et sa **qualité**.  
+Voici ce que signifient les résultats affichés :
+
+---
+
+### 📊 Dimensions
+- **891 lignes × 12 colonnes**  
+➡️ Cela veut dire qu’on a **891 passagers** (lignes) et **12 informations** (colonnes) sur chacun.
+
+---
+
+### 💾 Mémoire utilisée
+- **0.8 MB** → La taille que prend le dataset en mémoire.  
+Pas énorme, donc facile à manipuler.
+
+---
+
+### 📋 Types de colonnes
+- **int64 (5 colonnes)** → nombres entiers (ex. âge arrondi, nombre de frères/sœurs).  
+- **float64 (2 colonnes)** → nombres décimaux (ex. prix du billet).  
+- **object (5 colonnes)** → texte (ex. nom, sexe, cabine).
+
+---
+
+### 📝 Liste des colonnes
+Exemples :
+- `PassengerId` : identifiant unique de chaque passager  
+- `Survived` : 0 = n’a pas survécu, 1 = a survécu  
+- `Pclass` : classe du billet (1ère, 2ème, 3ème)  
+- `Name` : nom du passager  
+- `Sex` : sexe  
+- `Age` : âge  
+- `Fare` : prix du billet  
+
+⚠️ La colonne **Cabin** contient beaucoup de valeurs manquantes (687 sur 891 ≈ 77 %).  
+C’est une information **peu complète**, il faudra y faire attention.
+
+---
+
+### 👀 Premières lignes
+On affiche les **5 premières lignes** pour se faire une idée du contenu.  
+Exemple : passager 1 = homme, 22 ans, 3ème classe, n’a pas survécu.
+
+---
+
+### 📈 Statistiques des variables numériques
+Exemple avec `Age` :
+- **count = 714** → on a l’âge pour 714 passagers (il manque donc 177 valeurs).  
+- **mean = 29.7** → âge moyen ≈ 30 ans.  
+- **min = 0.42** → le plus jeune passager avait moins d’un an.  
+- **max = 80** → le plus vieux avait 80 ans.  
+
+Même logique pour `Fare` (prix du billet) et autres colonnes numériques.
+
+---
+
+### 🏷️ Variables catégorielles
+- Exemple : `Sex` = 2 valeurs possibles (`male`, `female`).  
+- Exemple : `Embarked` = port d’embarquement (C, Q, S).  
+
+On compte combien de valeurs différentes (uniques) il y a dans chaque colonne.
+
+---
+
+## ✅ En résumé
+- Le dataset Titanic contient **891 passagers et 12 informations** chacun.  
+- Certaines colonnes sont **numériques**, d’autres **textuelles**.  
+- Il y a des **valeurs manquantes** (notamment l’âge et la cabine).  
+- On a un bon aperçu général avant de faire des graphiques ou du machine learning.
+
+---
 
 ## 🎯 Bonnes pratiques de visualisation
 
