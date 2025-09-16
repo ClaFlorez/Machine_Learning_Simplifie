@@ -137,3 +137,58 @@ Vous analysez le **temps passé sur un site** vs le **montant des achats** :
 
 ![Scatter plot: Taille vs Poids](scatter_taille_poids.JPG)
 
+
+# 📦 Boxplot – Résumé statistique visuel
+
+## 📐 Qu’est-ce qu’un boxplot ?
+
+Imaginez que vous voulez **résumer la taille de tous les élèves de votre école** en un seul dessin.  
+➡️ Le boxplot le fait parfaitement : **un résumé compact de toute votre distribution**.
+
+---
+
+## 🧠 Pourquoi c’est génial ?
+
+En **un coup d’œil**, le boxplot vous dit tout :
+
+- 📍 Où se situe la **valeur typique** (la **médiane**)
+- 📦 Où se trouvent **50% des gens** (la boîte entre Q1 et Q3)
+- 📏 Où se trouvent **99% des cas** (les **moustaches**)
+- ⚠️ Qui sont les **valeurs aberrantes** (les points isolés)
+
+> 🩺 **Analogie pratique** : c’est comme un **thermomètre** de vos données !  
+> - La température normale = dans la boîte  
+> - La fièvre = les moustaches  
+> - Les urgences = les outliers
+
+---
+
+## 🧪 Super pouvoir du boxplot
+
+Vous pouvez **comparer plusieurs groupes d’un coup** 🔍 :
+
+- Salaires par département  
+- Notes par classe  
+- Ventes par région  
+
+➡️ On voit **immédiatement** qui performe le mieux… et où sont les anomalies.
+
+---
+
+## 🔎 Comment lire un boxplot ?
+
+| Élément         | Interprétation                                      |
+|------------------|-----------------------------------------------------|
+| 📍 Ligne centrale | Médiane (50% des valeurs en dessous et au-dessus)  |
+| 📦 La boîte       | Quartiles Q1 à Q3 (50% des données centrales)       |
+| ── Moustaches    | Étendue normale (1.5 × IQR)                          |
+| ⚠️ Points isolés | Valeurs aberrantes (outliers = "moutons noirs")     |
+
+---
+
+## 📷 Illustration
+
+![Boxplot salaires par département](images_visualisation/boxplot.JPG)
+
+
+
