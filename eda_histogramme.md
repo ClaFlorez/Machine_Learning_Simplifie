@@ -305,3 +305,120 @@ Chaque barre verticale représente une ville, avec une hauteur proportionnelle a
 |---------------|----------|-------------|
 | 🟣 **Paris**       | 269      | 26.9
 
+
+## 🎨 Introduction à Seaborn – Des graphiques plus beaux et plus intelligents
+
+### 🧰 C’est quoi Seaborn ?
+
+Si `matplotlib` est comme une **boîte à outils de base**, alors **Seaborn** est comme **un décorateur d’intérieur professionnel** 🛋️ :  
+Il rend vos graphiques **automatiquement élégants et clairs**, avec **moins de code**.
+
+> **Analogie** :  
+> - `matplotlib` = cuisiner avec des ingrédients bruts  
+> - `seaborn` = un chef cuisinier qui vous sert un plat gastronomique 🍽️
+
+---
+
+### ✅ Pourquoi utiliser Seaborn ?
+
+| Avantage                      | Explication                                 |
+|------------------------------|---------------------------------------------|
+| 🎨 Style moderne par défaut   | Couleurs, typographie, lisibilité améliorée |
+| 🧱 Syntaxe simplifiée         | Moins de lignes de code pour plus d’impact  |
+| 🤝 Intégration avec pandas    | DataFrame → graphique sans friction         |
+| 📈 Graphiques statistiques    | Courbes de densité, boxplots, pairplots...  |
+| 🎯 Couleurs automatiques      | Palette cohérente et accessible             |
+
+---
+
+### 📊 Types de graphiques populaires avec Seaborn
+
+- `distplot` : Distribution d’une variable avec courbe
+- `pairplot` : Matrice de relations entre variables
+- `heatmap` : Carte de chaleur (corrélations)
+- `violinplot` : Distribution détaillée et symétrique
+- `catplot` : Comparaison entre catégories
+
+---
+
+## 🌡️ Exemple : Heatmap des corrélations
+
+Imaginez une **carte météo** :  
+- 🔴 Rouge = chaud = **corrélation forte positive**  
+- 🔵 Bleu = froid = **corrélation forte négative**  
+- ⚪ Blanc = **pas de relation**
+
+> ➤ Une **heatmap** permet de visualiser **TOUTES les relations entre variables d’un seul coup d'œil**.
+
+---
+
+### 💼 Cas d’usage RH
+
+Dans un dataset de Ressources Humaines contenant 20 variables, une `heatmap` peut révéler :
+
+- 📈 **"Années d’expérience" et "Salaire"** → corrélation très positive  
+- 📉 **"Satisfaction" et "Heures de travail"** → corrélation négative
+
+Ces insights peuvent immédiatement orienter vos **décisions stratégiques** 🔍
+
+---
+
+### 📷 Illustration
+
+![Heatmap des corrélations RH](matrice_correlation.JPG)
+
+## 🧠 Matrice de corrélation – Variables RH
+
+Cette **heatmap** (carte de chaleur) visualise la **corrélation entre différentes variables** d’un jeu de données RH.  
+Elle permet de détecter les **relations linéaires fortes ou faibles**, positives ou négatives, entre les variables.
+
+---
+
+### 🔎 Comment lire cette matrice ?
+
+- 🔴 Rouge foncé = **Corrélation positive forte** (proche de +1)
+- 🔵 Bleu foncé (absent ici) = **Corrélation négative forte** (proche de -1)
+- ⚪ Blanc / beige = **Pas ou peu de corrélation** (proche de 0)
+
+Chaque **case** montre un **coefficient de corrélation de Pearson** (valeurs entre -1 et +1).
+
+---
+
+### 📊 Corrélations significatives observées (|r| ≥ 0.85)
+
+| Variables corrélées                | Corrélation | Interprétation                          |
+|------------------------------------|-------------|------------------------------------------|
+| **Âge – Expérience**               | 0.955       | Plus on est âgé, plus on a d’expérience  |
+| **Âge – Formation**                | 0.926       | Corrélation forte : âge ↔ formation reçue |
+| **Expérience – Salaire**           | 0.952       | L’expérience est fortement liée au salaire |
+| **Expérience – Formation**         | 0.970       | Expérience = facteur déterminant de la formation |
+| **Salaire – Formation**            | 0.924       | Les plus formés sont mieux rémunérés      |
+| **Salaire – Âge**                  | 0.911       | Corrélation attendue (âge ↔ revenu)       |
+
+🟢 Toutes ces corrélations sont **positives et très fortes**.
+
+---
+
+### 📉 Corrélations faibles ou négligeables
+
+| Variables                         | Corrélation | Interprétation                                |
+|----------------------------------|-------------|------------------------------------------------|
+| **Heures de travail – Satisfaction** | -0.023      | Légère tendance négative : plus on travaille, moins on est satisfait |
+| **Heures de travail – Formation**    | -0.045      | Très faible, presque nulle                    |
+| **Heures de travail – autres**       | ≈ 0         | Pas de lien clair avec les autres variables   |
+
+---
+
+### 🧪 Interprétation stratégique
+
+- **La formation** semble jouer un rôle **central** :
+  - Elle est fortement liée à l’âge, l’expérience et le salaire.
+- **L’âge** est aussi un **pivot** fort dans le dataset.
+- **Les heures de travail** ne sont **corrélées significativement à aucune autre variable**.
+
+---
+
+### 📷 Illustration
+
+```markdown
+![Matrice de corrélation des variables RH](images_visualisation/heatmap_correlation.png)
