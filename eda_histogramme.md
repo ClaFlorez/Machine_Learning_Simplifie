@@ -418,7 +418,57 @@ Chaque **case** montre un **coefficient de corrélation de Pearson** (valeurs en
 
 ---
 
-### 📷 Illustration
+##Processus d'exploration étape par étape
+###Étape 1 : Première inspection
 
-```markdown
-![Matrice de corrélation des variables RH](images_visualisation/heatmap_correlation.png)
+---
+
+![premiere_inspection](inspection_initiale.JPG)
+
+
+## 🎯 Bonnes pratiques de visualisation
+
+Pour que vos graphiques soient **clairs, utiles et convaincants**, voici quelques principes fondamentaux à suivre :
+
+---
+
+### ✨ Clarté
+- Titres explicites et informatifs  
+- Labels d’axes clairs et lisibles  
+- Légendes compréhensibles  
+- Taille de police adaptée à la lecture  
+
+---
+
+### 🧩 Simplicité
+- Un **message unique** par graphique  
+- Couleurs cohérentes et harmonisées  
+- Éviter la surcharge d’informations  
+- Graphique choisi en fonction des données  
+
+---
+
+### 🎯 Exactitude
+- Utiliser des **échelles appropriées**  
+- Ne pas déformer les proportions  
+- Fournir le **contexte suffisant** pour interpréter  
+- Mentionner les **sources des données**  
+
+---
+
+## 🏋️ Exercice pratique
+
+À vous de jouer ! Prenez un dataset simple (ex. : Titanic, Boston Housing) et réalisez votre **première exploration** :
+
+1. 📥 Charger les données avec **pandas**  
+2. 📝 Générer un **rapport d’exploration rapide**  
+3. 📊 Créer **3 graphiques différents** (histogramme, scatter plot, boxplot, bar chart)  
+4. ❌ Identifier **au moins un problème** dans les données  
+5. 💡 Formuler **2 hypothèses** basées sur vos visualisations  
+
+---
+
+## 📌 Points clés à retenir
+
+- La visualisation révèle souvent ce que les statistiques **seules ne montrent pas**  
+- To
