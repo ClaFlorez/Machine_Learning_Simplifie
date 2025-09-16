@@ -3,7 +3,7 @@
 > Document avec l’image incluse ci‑dessous (intégrée en base64 pour que le `.md` sea portable).
 
 ## Image
-![Texto alternativo](visualisation-tuning.JPG "Título opcional")
+![Texto alternativo](visualisation-tuning.JPG "Visualisation")
 
 ---
 
