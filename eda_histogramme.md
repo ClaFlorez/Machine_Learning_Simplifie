@@ -79,7 +79,7 @@ Dès que vous avez une **variable numérique** (âge, prix, température, etc.)
 ---
 
 ## 📷 Illustration
-![Histogramme des âges](histogramme.JPG)
+![Histogramme des âges](image/histogramme.JPG)
 
 
 
@@ -135,7 +135,7 @@ Vous analysez le **temps passé sur un site** vs le **montant des achats** :
 
 ## 📷 Illustration
 
-![Scatter plot: Taille vs Poids](scatter_taille_poids.JPG)
+![Scatter plot: Taille vs Poids](image/scatter_taille_poids.JPG)
 
 ## 📦 Interprétation du Boxplot par couleur
 
@@ -241,7 +241,7 @@ Vous pouvez **comparer plusieurs groupes d’un coup** 🔍 :
 
 ## 📷 Illustration
 
-![Boxplot salaires par département](boxplot.JPG)
+![Boxplot salaires par département](image/boxplot.JPG)
 
 ## 📦 Interprétation du Boxplot par couleur
 
@@ -290,7 +290,7 @@ La graphique montre la **distribution des salaires** dans plusieurs département
 ## 📦 Graphique en barres - Variables catégorielles
 Quand l'utiliser : Pour comparer les effectifs ou moyennes entre catégories
 
-![Graphique en barres – Répartition des clients par ville](Graphique_barres.JPG)
+![Graphique en barres – Répartition des clients par ville](image/Graphique_barres.JPG)
 
 ## 🟨 Graphique en barres – Répartition des clients par ville
 
@@ -365,7 +365,7 @@ Ces insights peuvent immédiatement orienter vos **décisions stratégiques** �
 
 ### 📷 Illustration
 
-![Heatmap des corrélations RH](matrice_correlation.JPG)
+![Heatmap des corrélations RH](image/matrice_correlation.JPG)
 
 ## 🧠 Matrice de corrélation – Variables RH
 
@@ -423,7 +423,7 @@ Chaque **case** montre un **coefficient de corrélation de Pearson** (valeurs en
 
 ---
 
-![premiere_inspection](inspection_initiale.JPG)
+![premiere_inspection](image/inspection_initiale.JPG)
 
 ## 🔎 Inspection initiale du dataset – Explication simple
 
@@ -544,4 +544,4 @@ Pour que vos graphiques soient **clairs, utiles et convaincants**, voici quelque
 ## 📌 Points clés à retenir
 
 - La visualisation révèle souvent ce que les statistiques **seules ne montrent pas**  
-- To
+
